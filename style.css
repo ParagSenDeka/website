@@ -124,10 +124,7 @@ header ul li{
     cursor: pointer;
     transition: 0.5s;
 }
-.find ul li:hover{
-    color: #fff;
-    /*background-image: var(--gradient-bg);*/
-}
+
 .banner .avatar{
     position: relative;
     height: max-content;
