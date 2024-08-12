@@ -20,7 +20,16 @@ p1{
 a{
     color: #0f3875;
     text-decoration: none;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
+
+a:hover{
+    background-color: #afb2b4;
+}
+
 body{
     margin: 0;
     background-color: var(--light);
